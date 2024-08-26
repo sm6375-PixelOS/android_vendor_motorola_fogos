@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/fogos
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/fogos/proprietary/product/etc/permissions/privapp-permissions-com.google.android.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.google.android.euicc.xml \
     vendor/motorola/fogos/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/fogos/proprietary/vendor/bin/capsense_reset:$(TARGET_COPY_OUT_VENDOR)/bin/capsense_reset \
     vendor/motorola/fogos/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-goodixservice \
@@ -388,6 +389,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
 PRODUCT_PACKAGES += \
+    EuiccPartnerApp \
+    EuiccGoogle \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util
