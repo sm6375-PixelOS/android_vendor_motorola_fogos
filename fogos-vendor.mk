@@ -219,8 +219,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libacdbloader \
-    libbitmlengine \
-    libbitmlenginev2 \
     libcamxexternalformatutils \
     com.mot.eeprom.mot_gt24p256c_s5kjns_eeprom \
     com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom \
@@ -328,6 +326,8 @@ PRODUCT_PACKAGES += \
     libarcsoft_portrait_super_night_se_raw \
     libarcsoft_super_night_raw \
     libarcsoft_super_night_se_raw \
+    libbitmlengine \
+    libbitmlenginev2 \
     libc2d_helper \
     libcamera_nn_stub \
     libcamerapostproc \
@@ -364,7 +364,6 @@ PRODUCT_PACKAGES += \
     libmot_afd \
     libmot_chi_desktop_helper \
     libmot_engine_settings \
-    libmotohid \
     libmpbase \
     libofflinedump \
     libofflinelog \
