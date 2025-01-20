@@ -319,7 +319,6 @@ PRODUCT_PACKAGES += \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
-    libC2D2 \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_chi_utils \
@@ -389,8 +388,6 @@ PRODUCT_PACKAGES += \
     vendor.goodix.hardware.biometrics.fingerprint@3.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.fingerprint@1.0 \
-    vendor.qti.hardware.scve.objecttracker@1.0 \
-    vendor.qti.hardware.scve.panorama@1.0 \
     MotoSignatureApp \
     EuiccPartnerApp \
     MotCamera3AI \
