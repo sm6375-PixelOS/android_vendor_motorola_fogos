@@ -188,10 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/fogos/proprietary/vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/motorola/fogos/proprietary/vendor/etc/sensors/proto/tcs3708.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/tcs3708.proto \
     vendor/motorola/fogos/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-camera.conf \
-    vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-game-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-game-normal.conf \
-    vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos-game-perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos-game-perf.conf \
-    vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine-fogos.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-fogos.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/fogos/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/fogos/proprietary/vendor/firmware/ILITEK_FW:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW \
